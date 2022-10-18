@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#controls {
+    font-family: sans-serif;
+    background: #fefefe;
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+}
+
+#controls button {
+    padding: 10px 20px;
+    background: #009eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#controls button:disabled {
+    opacity: 0.5;
+}
